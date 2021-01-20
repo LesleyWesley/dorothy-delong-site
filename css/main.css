@@ -268,10 +268,117 @@ More to come here...
 
 /*==============PORTFOLIO SECTION - MOBILE ======================*/
 
-#portfolio .full-width {
-  width: 90%;
+#portfolio {
+  display: flex;
   justify-content: center;
 }
+
+#portfolio .full-width {
+  width: 85%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photograph {
+  margin: 0 0 30px 0;
+}
+
+.photograph figure {
+  z-index: -1;
+  position: relative;
+}
+
+.photograph-heading {
+  margin-top: -32px;
+
+}
+
+.photograph-heading p {
+  color: #FFF;
+  font-size: .75em;
+  padding: 0 0 0 5px;
+  margin: 0;
+  background: rgba(0,0,0,.5)
+}
+
+/*=================ABOUT SECTION - MOBILE ==================*/
+
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#about .full-width {
+  width: 85%;
+}
+
+#about figure {
+  margin-bottom: 25px;
+}
+
+#about p {
+  line-height: 1.5em;
+}
+
+/*===============CONTACT SECTION - MOBILE =====================*/
+
+#contact {
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#contact .full-width {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    color: #FFF;
+}
+
+#contact .half-width {
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: nowrap;
+  width: 70%;
+  margin: 50px 0;
+}
+
+#contact i {
+  background-color: #FFF;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 1.25em;
+}
+
+#contact i.fab.fa-facebook-f {
+   padding: 5px 10px;
+}
+
+#contact p {
+  margin: 5px;
+}
+
+.copyright {
+  font-size: .85em;
+}
+
+*
+
+
 
 
 
@@ -369,6 +476,12 @@ More to come here...
    Modify as content requires.
    ========================================================================== */
 
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
