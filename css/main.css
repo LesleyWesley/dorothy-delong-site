@@ -382,12 +382,6 @@ h2 {
 
 
 
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -575,8 +569,116 @@ h2 {
 
 
 }
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 1024px) {
   /* Style adjustments for viewports that meet the condition */
+
+
+/*=================PORTFOLIO SECTION - SMALL DESKTOP ================*/
+
+  h2 {
+  font-size: 2em;
+  margin-bottom: 100px;
+  }
+
+  #portfolio img {
+    height: 260px;
+  }
+
+/*==================ABOUT SECTION - SMALL DESKTOP =====================*/
+
+  #about p {
+    font-size: 1em;
+    line-height: 2em;
+  }
+
+/*==================CONTACT SECTION - SMALL DESKTOP ===================*/
+
+#contact .half-width {
+  width: 25%;
+}
+
+.social-icons {
+  width: 25%;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /*========HEADER SECTION - LARGE DESKTOP ===================*/
+
+    header .logo-half {
+      width: 15%;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    header p {
+      font-size: 1em;
+    }
+
+  /*==============PORTFOLIO SECTION - LARGE DESKTOP =================*/
+
+    h2 {
+      font-size: 2.25em;
+    }
+
+    #portfolio img {
+      height: auto;
+    }
+
+    #portfolio #father {
+      height: 360px;
+    }
+
+    .photograph-heading {
+      margin-top: -43px;
+    }
+
+    .photograph-heading p {
+      font-size: 1em;
+    }
+
+  /*==============ABOUT SECTION - LARGE DESKTOP ===================*/
+
+    #about .full-width {
+      justify-content: space-around;
+    }
+
+    #about .half-width {
+      width: 35%;
+      margin-bottom: 100px;
+    }
+
+    #about p {
+      font-size: 1.1em;
+      line-height: 2.25em;
+    }
+
+  /*============CONTACT SECTION - LARGE DESKTOP ===================*/
+
+  #contact p {
+    margin-bottom: 25px;
+  }
+
+  .social-icons {
+    width: 20%;
+  }
+
+  #contact i {
+    font-size: 1.75em;
+  }
+
+  #contact i.fab.fa-facebook-f {
+    padding: 5px 12px;
+  }
 }
 
 @media print,
