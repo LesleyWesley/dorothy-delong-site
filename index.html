@@ -42,40 +42,20 @@
                   <h1>Dorothy DeLong</h1>
                   <p>Photography</p>
               </div>
+          </div>
+
+            <div class="half-width, topnav" id="myTopnav">
+              <a href="#home" class="active"></a>
+              <a href="#portfolio">PORTFOLIO</a>
+              <a href="#about">ABOUT</a>
+              <a href="#contact">CONTACT</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+              </a>
+            </div>
         </div>
 
-  <!-----------Hamburger Menu Code--------------->
 
-          <div class="half-width, hamburger-menu">
-              <a href="#main-menu"
-                  id="main-menu-toggle"
-                  class="menu-toggle"
-                  aria-label="Open main menu">
-                      <span class="sr-only">Open main menu</span>
-                      <span class="fa fa-bars" aria-hidden="true"></span>
-              </a>
-
-              <nav id="main-menu" class="main-menu" aria-label="Main menu">
-                  <a href="main-menu-toggle"
-                      id="main-menu-close"
-                      class="menu-close"
-                      aria-label="Close main menu">
-                        <span class="sr-only">Close main menu</span>
-                        <span class="fa fa-close" aria-hidden="true"></span>
-                  </a>
-                  <ul>
-                      <li><a href="#portfolio">Portfolio</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                  </ul>
-              </nav>
-              <a href="main-menu-toggle"
-                  class="backdrop"
-                  tabindex="-1"
-                  aria-hidden="true" hidden></a>
-
-
-          </div>
 
   <!----------------End of Hamburger Menu Code------------->
       </div>
@@ -90,74 +70,74 @@
 
               <div class="photography-section">
 
-                  <article class="photograph">
-                      <figure>
-                          <img src="img//smile.png" alt="Smile">
-                      </figure>
+                  <figure class="container">
+                      <img src="img//smile.png" alt="Smile" class="image">
 
-                      <div class="photograph-heading">
-                        <p>"Smile"</p>
-                        <p>San Francisco, 2017</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Smile"</p>
+                              <p>San Francisco, 2017</p>
+                          </div>
                       </div>
-                  </article>
+                  </figure>
 
 
 
 
-                  <article class="photograph">
-                      <figure>
-                          <img src="img//flag.png" alt="Flag">
-                      </figure>
+                  <figure class="container">
+                          <img src="img//flag.png" alt="Flag" class='image'>
 
-                      <div class="photograph-heading">
-                          <p>"Flag"</p>
-                          <p>LGBTQIA March in Washington DC, 2017</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Flag"</p>
+                              <p>LGBTQIA March in Washington DC, 2017</p>
+                          </div>
                       </div>
-                  </article>
+                  </figure>
 
-                  <article class="photograph">
-                      <figure>
-                          <img src="img//haircut.png" alt="Haircut">
-                      </figure>
+                  <figure class="container">
+                          <img src="img//haircut.png" alt="Haircut" class="image">
 
-                      <div class="photograph-heading">
-                          <p>"Haircut"</p>
-                          <p>New York City, 2018</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Haircut"</p>
+                              <p>New York City, 2018</p>
+                          </div>
                       </div>
-                  </article>
+                  </figure>
 
-                  <article class="photograph">
-                      <figure>
-                          <img id="father" src="img//father.png" alt="Father">
-                      </figure>
+                  <figure class="container">
+                          <img id="father" src="img//father-2.png" alt="Father" class="image">
 
-                      <div class="photograph-heading">
-                          <p>"Father"</p>
-                          <p>Denver 2018</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Father"</p>
+                              <p>Denver 2018</p>
+                          </div>
                       </div>
-                  </article>
+                  </figure>
 
-                  <article class="photograph">
-                      <figure>
-                          <img src="img//black-girl-magic.png" alt="Black Girl Magic">
-                      </figure>
+                  <figure class="container">
+                          <img src="img//black-girl-magic.png" alt="Black Girl Magic" class="image">
 
-                      <div class="photograph-heading">
-                          <p>"Black Girl Magic"</p>
-                          <p>Houston, TX, 2016</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Black Girl Magic"</p>
+                              <p>Houston, TX, 2016</p>
+                        </div>
                       </div>
-                  </article>
+                  </figure>
 
-                  <article class="photograph">
-                      <figure>
-                          <img src="img//flex.png" alt="Flex">
-                      </figure>
+                  <figure class="container">
+                          <img src="img//flex.png" alt="Flex" class="image">
 
-                      <div class="photograph-heading">
-                          <p>"Flex"</p>
-                          <p>Madison, WI, 2015</p>
+                      <div class="overlay">
+                          <div class="text">
+                              <p>"Flex"</p>
+                              <p>Madison, WI, 2015</p>
+                          </div>
                       </div>
-                  </article>
+                  </figure>
 
               </div>
 
@@ -214,6 +194,17 @@
           <p class="copyright">Copyright Dorothy DeLong 2021</p>
       </div>
   </footer>
+
+  <script>
+      function myFunction() {
+        var x = document.getElementById('myTopnav');
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+      }
+  </script>
 
   <!-----End of Personalized Code ------>
 
