@@ -223,7 +223,6 @@ h2 {
 }
 
 
-
 .container img {
   z-index: -1;
   position: relative;
@@ -477,6 +476,10 @@ h2 {
     .topnav a {
       color: black;
       font-size: .75em;
+    }
+
+    a:hover {
+      color: #9B00F5;
     }
 
 
