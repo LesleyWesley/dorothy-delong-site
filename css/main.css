@@ -202,10 +202,6 @@ span.fa.fa-bars {
 
 
 
-/*=====HAMBURGER MENU STYLING ==================*/
-
-
-
 /*==============PORTFOLIO SECTION - MOBILE ======================*/
 
 #portfolio {
@@ -225,6 +221,8 @@ h2 {
 .container {
   margin: 0 0 30px 0;
 }
+
+
 
 .container img {
   z-index: -1;
@@ -420,18 +418,20 @@ h2 {
    @media screen and (max-width: 600px) {
      .topnav.responsive {
        position: relative;
-       padding-top: 50px;
-       width: 40%;
+       padding-top: 75px;
+       width: 100%;
        font-size: 1.25em;
        line-height: 30px;
-       text-align-last: right;
+       text-align-last: center;
      }
 
 
      .topnav.responsive .icon {
        position: absolute;
        right: 0;
-       top: 0;
+       top: 25px;
+       text-align: center;
+       width: 100%;
      }
      .topnav.responsive a {
        float: none;
@@ -481,7 +481,9 @@ h2 {
 
 
 
-  /*===================PORTFOLIO STYLINGS ========================*/
+
+
+  /*===================PORTFOLIO STYLINGS  - TABLET ========================*/
 
     h2 {
       width: 100%;
@@ -508,12 +510,13 @@ h2 {
     }
 
     #portfolio img {
-      height: 210px;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
     }
+
+
 
     .overlay {
       position: absolute;
@@ -610,9 +613,6 @@ h2 {
   margin-bottom: 100px;
   }
 
-  #portfolio img {
-    height: 260px;
-  }
 
 /*==================ABOUT SECTION - SMALL DESKTOP =====================*/
 
@@ -668,9 +668,7 @@ h2 {
       height: auto;
     }
 
-    #portfolio #father {
-      height: 360px;
-    }
+
 
     .photograph-heading {
       margin-top: -43px;
